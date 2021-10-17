@@ -6,9 +6,12 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    /* font-family: 'Lobster', cursive; */
 }
 body{
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 
 }
 button{
@@ -20,6 +23,7 @@ button{
     background:transparent;
     transition: all 0.5s ease;
     color:#fff;
+    font-family: 'Inter', sans-serif;
     &:hover
     {
         background-color: #23d997;
